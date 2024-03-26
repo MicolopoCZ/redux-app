@@ -1,9 +1,9 @@
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
         <>
-            <h1>Kurwa bober</h1>
+            <Link to={"/Main"}>Vstoupit do systému</Link>
         </>
     )
-    
 }
